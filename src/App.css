@@ -1,33 +1,37 @@
-.App {
-  text-align: center;
+html {
+  font-family: 'Vazir';
+  color: black;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vazir';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.uk-text-white {
+  color: white !important;
+}
+
+header {
+  background: linear-gradient(to bottom, #f88936 0%, #fd2120 100%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+pre, code {
+  direction: ltr;
+  white-space: pre-line;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.swift-version-title {
+  background-color: #fd2120;
+  color: white;
+  padding: 12px;
+  text-align: center;
+}
+
+.text-ltr {
+  direction: ltr;
+}
+
+article h1 code {
+  font-size: inherit;
 }
