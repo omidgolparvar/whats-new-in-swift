@@ -12,8 +12,8 @@ import { Provider } from './Context'
 class App extends React.Component {
   state = {
     usingSwiftVersions: {
-      from: 1.1,
-      to: 1.2,
+      from: 1.2,
+      to: 4.1,
     },
 
     methods: {
