@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div dir='rtl'>
 
-## Available Scripts
+# چه خبر از سوییفت؟!
 
-In the project directory, you can run:
+نمایش تغییرات نسخه‌های سوییفت بهمراه نمونه کد؛ البته به زبان پارسی 🇮🇷
 
-### `npm start`
+## 📖 منبع
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+مطالب این وب‌سایت در واقع ترجمه‌شده مطالب [وب‌سایت WhatsNewInSwift](https://www.whatsnewinswift.com/) هست. مطالب اون وب‌سایت هم توسط [پاول هادسون](https://twitter.com/twostraws) نوشته میشه.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## 🤪 نکات مهم
 
-### `npm test`
+1️⃣ . اول از همه خودم گفته باشم که **«من ری‌اکت کار نیستم»**، ولی سعی کردم یه ساختار مشخص برای این پروژه آماده کنم، و همچنین سعی کردم اون ساختار تا حد زیادی ساده باشه.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2️⃣ . دوم از همه باز خودم گفته باشم که **«من مترجم حرفه‌ای نیستم»**، ولی سعی کردم تا جایی بلدم، ترجمه درستی کرده باشم. ولی بازم اگه جایی‌اش ترجمه اشتباهی انجام دادم، و یا ترجمه بهتری میشد برای مطلبی ارائه داد، فایل‌اش رو ویرایش کنین و Push کنین تا بررسی‌اش کنم. (فقط بی‌زحمت دلایل اشتباه‌بودن ترجمه فعلی، و یا دلایل بهتر بودن ترجمه خودتون رو ارائه بدین تا باز آموزشی هم برامون داشته باشه!😁)
 
-### `npm run build`
+## 🤝 همکاری
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1️⃣ . برای ترجمه کل محتواش مشکل خاصی ندارم، ولی خب هرچه زودتر مطالبش ترجمه بشن، زودتر هم در دسترس بقیه قرار می‌گیرن. 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2️⃣ . برای اینکه توی روند ترجمه، کار تکراری ایجاد نشده، من برای هر نسخه، یه فایل آماده کردم و توی پروژه قرار دادم. حالا هرکدوم از دوستان که مثلا می‌خوان روی ترجمه مطالب مربوط به نسخه 5.0 کار کنن، یه Issue توی پروژه ایجاد کنن، و توی اون بنویسن که دارن ترجمه اون نسخه رو شروع می‌کنن. اینجوری بقیه دوستان وقتی بخوان ترجمه‌ای رو شروع کنن، کافیه اول یه سری به صفحه Issueها بزنن، تا ببین کدوم نسخه هنوز شروع به ترجمه نشده.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📏 وضعیت پیشرفت
 
-### `npm run eject`
+توی این جدول وضعیت ترجمه‌ها به تفکیک نسخه قابل مشاهده‌ست.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+| نسخه        | وضعیت           |
+|:-------------:|:-------------:|
+| نسخه ۱.۰ ||
+| نسخه ۱.۱ | ✅ **ترجمه شده است**|
+| نسخه ۱.۲ | ✅ **ترجمه شده است**|
+| نسخه ۲.۰ | **ترجمه نشده است**|
+| نسخه ۲.۱ | **ترجمه نشده است**|
+| نسخه ۲.۲ | **ترجمه نشده است**|
+| نسخه ۳.۰ | **ترجمه نشده است**|
+| نسخه ۳.۱ | **ترجمه نشده است**|
+| نسخه ۴.۰ | **ترجمه نشده است**|
+| نسخه ۴.۱ | **ترجمه نشده است**|
+| نسخه ۴.۲ | **ترجمه نشده است**|
+| نسخه ۵.۰ | **ترجمه نشده است**|
+| نسخه ۵.۱ | **ترجمه نشده است**|
+| نسخه ۵.۲ | **ترجمه نشده است**|
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+</div>
