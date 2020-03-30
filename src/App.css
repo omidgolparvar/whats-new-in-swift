@@ -18,7 +18,10 @@ header {
 
 pre, code {
   direction: ltr;
-  white-space: pre-line;
+}
+
+article h1 code {
+  background: none;
 }
 
 .swift-version-title {
