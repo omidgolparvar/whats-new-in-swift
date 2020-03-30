@@ -1,4 +1,12 @@
 import React from 'react'
+import Highlight from 'react-highlight.js';
+
+const _code0 = `struct Person {
+  var firstName: String
+  var lastName: String
+  var age: Int
+  var city: String
+}`
 
 function V4_1() {
   return (
@@ -12,13 +20,7 @@ function V4_1() {
       
       <p>هرچند، پیاده‌سازی پروتکل <code>Equatable</code> ممکنه یکم اذیت‌کننده باشه. برای مثال، کد زیر رو در نظر بگیرین:</p>
 
-      <pre>{`struct Person {
-          var firstName: String
-          var lastName: String
-          var age: Int
-          var city: String
-      }`}
-      </pre>
+      <Highlight language='swift'>{_code0}</Highlight>
     </article>
     </>
   )
