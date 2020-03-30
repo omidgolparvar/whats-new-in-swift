@@ -1,15 +1,15 @@
 import React from 'react'
-import { Consumer } from '../Context'
+import { Consumer } from '../Context/Context'
 
 import AllVersions from '../Data/AllVersions'
 
-function MainContent(props) {
+function MainContent() {
   return (
     <Consumer>
       { (context) => {
-        let from = context.usingSwiftVersions.from
-        let to = context.usingSwiftVersions.to
-        let contents = AllVersions.filter((item) => (item.version > from) && (item.version <= to))
+        let from = context.versions.from
+        let to = context.versions.to
+        let contents = AllVersions.filter((item) => (item.version >= from) && (item.version <= to))
         return (
           <>
           <div className='uk-container'>

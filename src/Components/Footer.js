@@ -65,7 +65,7 @@ function Footer() {
         <hr className="uk-divider-icon"/>
         <h1>اعتبارش مال کیه؟!</h1>
         <p>مطالبی که مشاهده می‌کنین، توسط پاول هادسون نوشته شده. اگه سوال یا نظری داشتین، می‌تونین از طریق توییتر 
-          <a href='https://twitter.com/twostraws' className=""> @twostraws </a>
+          <a href='https://twitter.com/twostraws' className="" dir='ltr'> @twostraws </a>
           و یا پست الکترونیک 
           <a href='mailto:paul@hackingwithswift.com'> paul@hackingwithswift.com </a>
           بیان‌شون کنین.
@@ -85,6 +85,12 @@ function Footer() {
           }
         </p>
         <p>برای یادگیری مطالب بیشتر در مورد سوییفت، <a href='https://www.hackingwithswift.com/'>وب‌سایت Hacking with Swift</a> آموزش‌های زیادی بصورت رایگان ارائه میده.</p>
+        <hr className="uk-divider-icon"/>
+        <p className="uk-text-small">
+          👈 این پروژه بصورت متن‌باز تهیه شده و از طریق <a href="https://github.com/omidgolparvar/whats-new-in-swift">گیت‌هاب</a> قابل دسترس و ویرایش هست.
+          <br/>
+          👈 استفاده از مطالب این وب‌سایت به هر نحو <span className="uk-text-bold uk-text-emphasis">آزاد</span> هست. ما خودمون هم بی‌اجازه داریم ترجمه می‌کنیم!! 😆
+        </p>
       </div>
     </footer>
     </>
